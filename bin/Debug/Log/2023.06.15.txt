@@ -1,0 +1,230 @@
+﻿2023-06-15 14:42:48,344 [7] INFO  Info - 初始化账号密码
+2023-06-15 14:42:50,855 [7] INFO  Info - Post request: https://honeycomb.zkh360.com//openApi/v1/tokenParam：{"accessId":"sales3@wedotools.com","accessSecret":"5rTNnSJ5"}
+2023-06-15 14:42:55,982 [7] INFO  Info - Post
+2023-06-15 14:43:13,314 [7] ERROR Error - 远程服务器返回错误: (500) 内部服务器错误。
+System.Net.WebException: 远程服务器返回错误: (500) 内部服务器错误。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 WDKisStockToZKH.Util.APIHelp.PostRequest[T](String Url, String Param) 位置 D:\交接源码\维度\MyService\Util\APIHelp.cs:行号 230
+2023-06-15 14:43:13,339 [7] ERROR Error - “WDKisStockToZKH.Util.APIHelp”的类型初始值设定项引发异常。
+System.TypeInitializationException: “WDKisStockToZKH.Util.APIHelp”的类型初始值设定项引发异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 WDKisStockToZKH.Util.APIHelp.GetAccessToken() 位置 D:\交接源码\维度\MyService\Util\APIHelp.cs:行号 74
+   在 WDKisStockToZKH.Util.APIHelp..cctor() 位置 D:\交接源码\维度\MyService\Util\APIHelp.cs:行号 36
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 WDKisStockToZKH.Util.APIHelp.PostReportStock(ReportStockModle stockModel)
+   在 MyService.库存同步服务.Timer_Elapsed(Object sender, ElapsedEventArgs e) 位置 D:\交接源码\维度\MyService\MyService.cs:行号 60
+2023-06-15 14:43:13,342 [9] ERROR Error - “WDKisStockToZKH.Util.APIHelp”的类型初始值设定项引发异常。
+System.TypeInitializationException: “WDKisStockToZKH.Util.APIHelp”的类型初始值设定项引发异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 WDKisStockToZKH.Util.APIHelp.GetAccessToken() 位置 D:\交接源码\维度\MyService\Util\APIHelp.cs:行号 74
+   在 WDKisStockToZKH.Util.APIHelp..cctor() 位置 D:\交接源码\维度\MyService\Util\APIHelp.cs:行号 36
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 WDKisStockToZKH.Util.APIHelp.PostReportStock(ReportStockModle stockModel)
+   在 MyService.库存同步服务.Timer_Elapsed(Object sender, ElapsedEventArgs e) 位置 D:\交接源码\维度\MyService\MyService.cs:行号 60
+2023-06-15 14:43:55,001 [7] INFO  Info - 初始化账号密码
+2023-06-15 14:43:56,724 [7] INFO  Info - Post request: https://honeycomb.zkh360.com//openApi/v1/tokenParam：{"accessId":"sales3@wedotools.com","accessSecret":"5rTNnSJ5"}
+2023-06-15 14:43:56,724 [7] INFO  Info - Post
+2023-06-15 14:43:57,106 [7] ERROR Error - 远程服务器返回错误: (500) 内部服务器错误。
+System.Net.WebException: 远程服务器返回错误: (500) 内部服务器错误。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 WDKisStockToZKH.Util.APIHelp.PostRequest[T](String Url, String Param) 位置 D:\交接源码\维度\MyService\Util\APIHelp.cs:行号 230
+2023-06-15 14:44:10,283 [7] ERROR Error - “WDKisStockToZKH.Util.APIHelp”的类型初始值设定项引发异常。
+System.TypeInitializationException: “WDKisStockToZKH.Util.APIHelp”的类型初始值设定项引发异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 WDKisStockToZKH.Util.APIHelp.GetAccessToken() 位置 D:\交接源码\维度\MyService\Util\APIHelp.cs:行号 74
+   在 WDKisStockToZKH.Util.APIHelp..cctor() 位置 D:\交接源码\维度\MyService\Util\APIHelp.cs:行号 36
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 WDKisStockToZKH.Util.APIHelp.PostReportStock(ReportStockModle stockModel)
+   在 MyService.库存同步服务.Timer_Elapsed(Object sender, ElapsedEventArgs e) 位置 D:\交接源码\维度\MyService\MyService.cs:行号 60
+2023-06-15 14:44:14,806 [7] ERROR Error - “WDKisStockToZKH.Util.APIHelp”的类型初始值设定项引发异常。
+System.TypeInitializationException: “WDKisStockToZKH.Util.APIHelp”的类型初始值设定项引发异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 WDKisStockToZKH.Util.APIHelp.GetAccessToken() 位置 D:\交接源码\维度\MyService\Util\APIHelp.cs:行号 74
+   在 WDKisStockToZKH.Util.APIHelp..cctor() 位置 D:\交接源码\维度\MyService\Util\APIHelp.cs:行号 36
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 WDKisStockToZKH.Util.APIHelp.PostReportStock(ReportStockModle stockModel)
+   在 MyService.库存同步服务.Timer_Elapsed(Object sender, ElapsedEventArgs e) 位置 D:\交接源码\维度\MyService\MyService.cs:行号 60
+2023-06-15 14:44:51,444 [5] INFO  Info - 初始化账号密码
+2023-06-15 14:44:51,462 [5] INFO  Info - Post request: https://honeycomb.zkh360.com//openApi/v1/tokenParam：{"accessId":"sales3@wedotools.com","accessSecret":"5rTNnSJ5"}
+2023-06-15 14:44:51,462 [5] INFO  Info - Post
+2023-06-15 14:44:51,797 [5] ERROR Error - 远程服务器返回错误: (500) 内部服务器错误。
+System.Net.WebException: 远程服务器返回错误: (500) 内部服务器错误。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 WDKisStockToZKH.Util.APIHelp.PostRequest[T](String Url, String Param) 位置 D:\交接源码\维度\MyService\Util\APIHelp.cs:行号 230
+2023-06-15 14:44:51,803 [5] ERROR Error - “WDKisStockToZKH.Util.APIHelp”的类型初始值设定项引发异常。
+System.TypeInitializationException: “WDKisStockToZKH.Util.APIHelp”的类型初始值设定项引发异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 WDKisStockToZKH.Util.APIHelp.GetAccessToken() 位置 D:\交接源码\维度\MyService\Util\APIHelp.cs:行号 74
+   在 WDKisStockToZKH.Util.APIHelp..cctor() 位置 D:\交接源码\维度\MyService\Util\APIHelp.cs:行号 36
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 WDKisStockToZKH.Util.APIHelp.PostReportStock(ReportStockModle stockModel)
+   在 MyService.库存同步服务.Timer_Elapsed(Object sender, ElapsedEventArgs e) 位置 D:\交接源码\维度\MyService\MyService.cs:行号 60
+2023-06-15 14:45:11,353 [5] ERROR Error - “WDKisStockToZKH.Util.APIHelp”的类型初始值设定项引发异常。
+System.TypeInitializationException: “WDKisStockToZKH.Util.APIHelp”的类型初始值设定项引发异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 WDKisStockToZKH.Util.APIHelp.GetAccessToken() 位置 D:\交接源码\维度\MyService\Util\APIHelp.cs:行号 74
+   在 WDKisStockToZKH.Util.APIHelp..cctor() 位置 D:\交接源码\维度\MyService\Util\APIHelp.cs:行号 36
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 WDKisStockToZKH.Util.APIHelp.PostReportStock(ReportStockModle stockModel)
+   在 MyService.库存同步服务.Timer_Elapsed(Object sender, ElapsedEventArgs e) 位置 D:\交接源码\维度\MyService\MyService.cs:行号 60
+2023-06-15 14:46:07,197 [7] INFO  Info - 初始化账号密码
+2023-06-15 14:46:08,583 [7] INFO  Info - PostHttpResponse
+2023-06-15 14:46:25,515 [7] ERROR Error - “WDKisStockToZKH.Util.APIHelp”的类型初始值设定项引发异常。
+System.TypeInitializationException: “WDKisStockToZKH.Util.APIHelp”的类型初始值设定项引发异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 WDKisStockToZKH.Util.APIHelp.GetAccessToken() 位置 D:\交接源码\维度\MyService\Util\APIHelp.cs:行号 74
+   在 WDKisStockToZKH.Util.APIHelp..cctor() 位置 D:\交接源码\维度\MyService\Util\APIHelp.cs:行号 36
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 WDKisStockToZKH.Util.APIHelp.PostReportStock(ReportStockModle stockModel)
+   在 MyService.库存同步服务.Timer_Elapsed(Object sender, ElapsedEventArgs e) 位置 D:\交接源码\维度\MyService\MyService.cs:行号 60
+2023-06-15 14:46:27,085 [9] ERROR Error - “WDKisStockToZKH.Util.APIHelp”的类型初始值设定项引发异常。
+System.TypeInitializationException: “WDKisStockToZKH.Util.APIHelp”的类型初始值设定项引发异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 WDKisStockToZKH.Util.APIHelp.GetAccessToken() 位置 D:\交接源码\维度\MyService\Util\APIHelp.cs:行号 74
+   在 WDKisStockToZKH.Util.APIHelp..cctor() 位置 D:\交接源码\维度\MyService\Util\APIHelp.cs:行号 36
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 WDKisStockToZKH.Util.APIHelp.PostReportStock(ReportStockModle stockModel)
+   在 MyService.库存同步服务.Timer_Elapsed(Object sender, ElapsedEventArgs e) 位置 D:\交接源码\维度\MyService\MyService.cs:行号 60
+2023-06-15 14:47:02,591 [6] INFO  Info - 初始化账号密码
+2023-06-15 14:47:03,439 [6] INFO  Info - PostHttpResponse
+2023-06-15 14:47:36,457 [6] ERROR Error - “WDKisStockToZKH.Util.APIHelp”的类型初始值设定项引发异常。
+System.TypeInitializationException: “WDKisStockToZKH.Util.APIHelp”的类型初始值设定项引发异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 WDKisStockToZKH.Util.APIHelp.GetAccessToken() 位置 D:\交接源码\维度\MyService\Util\APIHelp.cs:行号 74
+   在 WDKisStockToZKH.Util.APIHelp..cctor() 位置 D:\交接源码\维度\MyService\Util\APIHelp.cs:行号 36
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 WDKisStockToZKH.Util.APIHelp.PostReportStock(ReportStockModle stockModel)
+   在 MyService.库存同步服务.Timer_Elapsed(Object sender, ElapsedEventArgs e) 位置 D:\交接源码\维度\MyService\MyService.cs:行号 60
+2023-06-15 14:47:36,457 [8] ERROR Error - “WDKisStockToZKH.Util.APIHelp”的类型初始值设定项引发异常。
+System.TypeInitializationException: “WDKisStockToZKH.Util.APIHelp”的类型初始值设定项引发异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 WDKisStockToZKH.Util.APIHelp.GetAccessToken() 位置 D:\交接源码\维度\MyService\Util\APIHelp.cs:行号 74
+   在 WDKisStockToZKH.Util.APIHelp..cctor() 位置 D:\交接源码\维度\MyService\Util\APIHelp.cs:行号 36
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 WDKisStockToZKH.Util.APIHelp.PostReportStock(ReportStockModle stockModel)
+   在 MyService.库存同步服务.Timer_Elapsed(Object sender, ElapsedEventArgs e) 位置 D:\交接源码\维度\MyService\MyService.cs:行号 69
+   在 System.Timers.Timer.MyTimerCallback(Object state)
+2023-06-15 14:50:24,203 [6] INFO  Info - 初始化账号密码
+2023-06-15 14:50:27,571 [6] INFO  Info - Post request: https://honeycomb.zkh360.com//openApi/v1/tokenParam：{"accessId":"sales3@wedotools.com","accessSecret":"5rTNnSJ5"}
+2023-06-15 14:50:32,402 [6] INFO  Info - Post
+2023-06-15 14:50:48,735 [6] ERROR Error - 远程服务器返回错误: (500) 内部服务器错误。
+System.Net.WebException: 远程服务器返回错误: (500) 内部服务器错误。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 WDKisStockToZKH.Util.APIHelp.PostRequest[T](String Url, String Param) 位置 D:\交接源码\维度\MyService\Util\APIHelp.cs:行号 230
+2023-06-15 14:50:48,748 [6] ERROR Error - “WDKisStockToZKH.Util.APIHelp”的类型初始值设定项引发异常。
+System.TypeInitializationException: “WDKisStockToZKH.Util.APIHelp”的类型初始值设定项引发异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 WDKisStockToZKH.Util.APIHelp.GetAccessToken() 位置 D:\交接源码\维度\MyService\Util\APIHelp.cs:行号 74
+   在 WDKisStockToZKH.Util.APIHelp..cctor() 位置 D:\交接源码\维度\MyService\Util\APIHelp.cs:行号 36
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 WDKisStockToZKH.Util.APIHelp.PostReportStock(ReportStockModle stockModel)
+   在 MyService.库存同步服务.Timer_Elapsed(Object sender, ElapsedEventArgs e) 位置 D:\交接源码\维度\MyService\MyService.cs:行号 60
+2023-06-15 14:50:48,749 [9] ERROR Error - “WDKisStockToZKH.Util.APIHelp”的类型初始值设定项引发异常。
+System.TypeInitializationException: “WDKisStockToZKH.Util.APIHelp”的类型初始值设定项引发异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 WDKisStockToZKH.Util.APIHelp.GetAccessToken() 位置 D:\交接源码\维度\MyService\Util\APIHelp.cs:行号 74
+   在 WDKisStockToZKH.Util.APIHelp..cctor() 位置 D:\交接源码\维度\MyService\Util\APIHelp.cs:行号 36
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 WDKisStockToZKH.Util.APIHelp.PostReportStock(ReportStockModle stockModel)
+   在 MyService.库存同步服务.Timer_Elapsed(Object sender, ElapsedEventArgs e) 位置 D:\交接源码\维度\MyService\MyService.cs:行号 69
+   在 System.Timers.Timer.MyTimerCallback(Object state)
+2023-06-15 14:52:17,727 [6] INFO  Info - 初始化账号密码
+2023-06-15 14:52:19,338 [6] INFO  Info - Post request: https://honeycomb.zkh360.com//openApi/v1/tokenParam：{"accessId":"sales3@wedotools.com","accessSecret":"5rTNnSJ5"}
+2023-06-15 14:52:19,338 [6] INFO  Info - Post
+2023-06-15 14:52:20,976 [6] ERROR Error - Keep-Alive 和 Close 不能使用此属性设置。
+参数名: value
+System.ArgumentException: Keep-Alive 和 Close 不能使用此属性设置。
+参数名: value
+   在 System.Net.HttpWebRequest.set_Connection(String value)
+   在 WDKisStockToZKH.Util.APIHelp.PostRequest[T](String Url, String Param) 位置 D:\交接源码\维度\MyService\Util\APIHelp.cs:行号 226
+2023-06-15 14:52:24,186 [6] ERROR Error - “WDKisStockToZKH.Util.APIHelp”的类型初始值设定项引发异常。
+System.TypeInitializationException: “WDKisStockToZKH.Util.APIHelp”的类型初始值设定项引发异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 WDKisStockToZKH.Util.APIHelp.GetAccessToken() 位置 D:\交接源码\维度\MyService\Util\APIHelp.cs:行号 74
+   在 WDKisStockToZKH.Util.APIHelp..cctor() 位置 D:\交接源码\维度\MyService\Util\APIHelp.cs:行号 36
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 WDKisStockToZKH.Util.APIHelp.PostReportStock(ReportStockModle stockModel)
+   在 MyService.库存同步服务.Timer_Elapsed(Object sender, ElapsedEventArgs e) 位置 D:\交接源码\维度\MyService\MyService.cs:行号 60
+2023-06-15 14:52:37,631 [6] ERROR Error - “WDKisStockToZKH.Util.APIHelp”的类型初始值设定项引发异常。
+System.TypeInitializationException: “WDKisStockToZKH.Util.APIHelp”的类型初始值设定项引发异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 WDKisStockToZKH.Util.APIHelp.GetAccessToken() 位置 D:\交接源码\维度\MyService\Util\APIHelp.cs:行号 74
+   在 WDKisStockToZKH.Util.APIHelp..cctor() 位置 D:\交接源码\维度\MyService\Util\APIHelp.cs:行号 36
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 WDKisStockToZKH.Util.APIHelp.PostReportStock(ReportStockModle stockModel)
+   在 MyService.库存同步服务.Timer_Elapsed(Object sender, ElapsedEventArgs e) 位置 D:\交接源码\维度\MyService\MyService.cs:行号 60
+2023-06-15 14:53:05,875 [7] INFO  Info - 初始化账号密码
+2023-06-15 14:53:07,234 [7] INFO  Info - Post request: https://honeycomb.zkh360.com//openApi/v1/tokenParam：{"accessId":"sales3@wedotools.com","accessSecret":"5rTNnSJ5"}
+2023-06-15 14:53:10,655 [7] INFO  Info - Post
+2023-06-15 14:53:22,307 [7] ERROR Error - Keep-Alive 和 Close 不能使用此属性设置。
+参数名: value
+System.ArgumentException: Keep-Alive 和 Close 不能使用此属性设置。
+参数名: value
+   在 System.Net.HttpWebRequest.set_Connection(String value)
+   在 WDKisStockToZKH.Util.APIHelp.PostRequest[T](String Url, String Param) 位置 D:\交接源码\维度\MyService\Util\APIHelp.cs:行号 226
+2023-06-15 14:53:22,317 [7] ERROR Error - “WDKisStockToZKH.Util.APIHelp”的类型初始值设定项引发异常。
+System.TypeInitializationException: “WDKisStockToZKH.Util.APIHelp”的类型初始值设定项引发异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 WDKisStockToZKH.Util.APIHelp.GetAccessToken() 位置 D:\交接源码\维度\MyService\Util\APIHelp.cs:行号 74
+   在 WDKisStockToZKH.Util.APIHelp..cctor() 位置 D:\交接源码\维度\MyService\Util\APIHelp.cs:行号 36
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 WDKisStockToZKH.Util.APIHelp.PostReportStock(ReportStockModle stockModel)
+   在 MyService.库存同步服务.Timer_Elapsed(Object sender, ElapsedEventArgs e) 位置 D:\交接源码\维度\MyService\MyService.cs:行号 60
+2023-06-15 14:53:25,776 [7] ERROR Error - “WDKisStockToZKH.Util.APIHelp”的类型初始值设定项引发异常。
+System.TypeInitializationException: “WDKisStockToZKH.Util.APIHelp”的类型初始值设定项引发异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 WDKisStockToZKH.Util.APIHelp.GetAccessToken() 位置 D:\交接源码\维度\MyService\Util\APIHelp.cs:行号 74
+   在 WDKisStockToZKH.Util.APIHelp..cctor() 位置 D:\交接源码\维度\MyService\Util\APIHelp.cs:行号 36
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 WDKisStockToZKH.Util.APIHelp.PostReportStock(ReportStockModle stockModel)
+   在 MyService.库存同步服务.Timer_Elapsed(Object sender, ElapsedEventArgs e) 位置 D:\交接源码\维度\MyService\MyService.cs:行号 60
+2023-06-15 14:55:40,214 [7] INFO  Info - 初始化账号密码
+2023-06-15 14:55:45,564 [7] INFO  Info - Post request: https://honeycomb.zkh360.com//openApi/v1/tokenParam：{"accessId":"sales3@wedotools.com","accessSecret":"5rTNnSJ5"}
+2023-06-15 14:55:47,396 [7] INFO  Info - Post
+2023-06-15 14:55:50,372 [7] ERROR Error - 远程服务器返回错误: (500) 内部服务器错误。
+System.Net.WebException: 远程服务器返回错误: (500) 内部服务器错误。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 WDKisStockToZKH.Util.APIHelp.PostRequest[T](String Url, String Param) 位置 D:\交接源码\维度\MyService\Util\APIHelp.cs:行号 227
+2023-06-15 14:55:52,696 [7] ERROR Error - “WDKisStockToZKH.Util.APIHelp”的类型初始值设定项引发异常。
+System.TypeInitializationException: “WDKisStockToZKH.Util.APIHelp”的类型初始值设定项引发异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 WDKisStockToZKH.Util.APIHelp.GetAccessToken() 位置 D:\交接源码\维度\MyService\Util\APIHelp.cs:行号 74
+   在 WDKisStockToZKH.Util.APIHelp..cctor() 位置 D:\交接源码\维度\MyService\Util\APIHelp.cs:行号 36
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 WDKisStockToZKH.Util.APIHelp.PostReportStock(ReportStockModle stockModel)
+   在 MyService.库存同步服务.Timer_Elapsed(Object sender, ElapsedEventArgs e) 位置 D:\交接源码\维度\MyService\MyService.cs:行号 60
+2023-06-15 14:56:18,883 [5] INFO  Info - 初始化账号密码
+2023-06-15 14:56:19,726 [5] INFO  Info - Post request: https://honeycomb.zkh360.com//openApi/v1/tokenParam：{"accessId":"sales3@wedotools.com","accessSecret":"5rTNnSJ5"}
+2023-06-15 14:56:22,350 [5] INFO  Info - Post
+2023-06-15 14:56:35,171 [5] ERROR Error - “WDKisStockToZKH.Util.APIHelp”的类型初始值设定项引发异常。
+System.TypeInitializationException: “WDKisStockToZKH.Util.APIHelp”的类型初始值设定项引发异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 WDKisStockToZKH.Util.APIHelp.GetAccessToken() 位置 D:\交接源码\维度\MyService\Util\APIHelp.cs:行号 74
+   在 WDKisStockToZKH.Util.APIHelp..cctor() 位置 D:\交接源码\维度\MyService\Util\APIHelp.cs:行号 36
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 WDKisStockToZKH.Util.APIHelp.PostReportStock(ReportStockModle stockModel)
+   在 MyService.库存同步服务.Timer_Elapsed(Object sender, ElapsedEventArgs e) 位置 D:\交接源码\维度\MyService\MyService.cs:行号 60
+2023-06-15 14:57:12,732 [7] INFO  Info - 初始化账号密码
+2023-06-15 14:57:14,512 [7] INFO  Info - Post request: https://honeycomb.zkh360.com//openApi/v1/tokenParam：{"accessId":"sales3@wedotools.com","accessSecret":"5rTNnSJ5"}
+2023-06-15 14:57:15,761 [7] INFO  Info - Post
+2023-06-15 14:57:22,424 [7] ERROR Error - 远程服务器返回错误: (500) 内部服务器错误。
+System.Net.WebException: 远程服务器返回错误: (500) 内部服务器错误。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 WDKisStockToZKH.Util.APIHelp.PostRequest[T](String Url, String Param) 位置 D:\交接源码\维度\MyService\Util\APIHelp.cs:行号 227
+2023-06-15 15:02:00,065 [5] INFO  Info - 初始化账号密码
+2023-06-15 15:02:00,086 [5] INFO  Info - Post request: https://honeycomb.zkh360.com//openApi/v1/tokenParam：{"accessId":"sales3@wedotools.com","accessSecret":"5rTNnSJ5"}
+2023-06-15 15:02:00,086 [5] INFO  Info - Post
+2023-06-15 15:02:09,246 [5] ERROR Error - 远程服务器返回错误: (500) 内部服务器错误。
+System.Net.WebException: 远程服务器返回错误: (500) 内部服务器错误。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 WDKisStockToZKH.Util.APIHelp.PostRequest[T](String Url, String Param) 位置 D:\交接源码\维度\MyService\Util\APIHelp.cs:行号 230
+2023-06-15 15:02:24,881 [5] INFO  Info - {"timestamp":1686812524229,"status":500,"error":"Internal Server Error","exception":"org.springframework.security.web.firewall.RequestRejectedException","message":"The request was rejected because the URL was not normalized.","path":"//openApi/v1/token"}
+
+2023-06-15 15:02:25,069 [5] ERROR Error - Token获取失败api_url:https://honeycomb.zkh360.com//openApi/v1/token,账号:sales3@wedotools.com密码:5rTNnSJ5 返回Json{"code":0,"data":null,"isSuccess":null,"msg":null}
+System.Exception: Token获取失败
+2023-06-15 15:02:25,070 [5] ERROR Error - “WDKisStockToZKH.Util.APIHelp”的类型初始值设定项引发异常。
+System.TypeInitializationException: “WDKisStockToZKH.Util.APIHelp”的类型初始值设定项引发异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 WDKisStockToZKH.Util.APIHelp.GetAccessToken() 位置 D:\交接源码\维度\MyService\Util\APIHelp.cs:行号 74
+   在 WDKisStockToZKH.Util.APIHelp..cctor() 位置 D:\交接源码\维度\MyService\Util\APIHelp.cs:行号 36
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 WDKisStockToZKH.Util.APIHelp.PostReportStock(ReportStockModle stockModel)
+   在 MyService.库存同步服务.Timer_Elapsed(Object sender, ElapsedEventArgs e) 位置 D:\交接源码\维度\MyService\MyService.cs:行号 60
+2023-06-15 15:02:25,070 [8] ERROR Error - “WDKisStockToZKH.Util.APIHelp”的类型初始值设定项引发异常。
+System.TypeInitializationException: “WDKisStockToZKH.Util.APIHelp”的类型初始值设定项引发异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 WDKisStockToZKH.Util.APIHelp.GetAccessToken() 位置 D:\交接源码\维度\MyService\Util\APIHelp.cs:行号 74
+   在 WDKisStockToZKH.Util.APIHelp..cctor() 位置 D:\交接源码\维度\MyService\Util\APIHelp.cs:行号 36
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 WDKisStockToZKH.Util.APIHelp.PostReportStock(ReportStockModle stockModel)
+   在 MyService.库存同步服务.Timer_Elapsed(Object sender, ElapsedEventArgs e) 位置 D:\交接源码\维度\MyService\MyService.cs:行号 69
+   在 System.Timers.Timer.MyTimerCallback(Object state)
+2023-06-15 15:03:01,069 [6] INFO  Info - 初始化账号密码
+2023-06-15 15:03:01,090 [6] INFO  Info - Post request: https://honeycomb.zkh360.com/openApi/v1/tokenParam：{"accessId":"sales3@wedotools.com","accessSecret":"5rTNnSJ5"}
+2023-06-15 15:03:01,090 [6] INFO  Info - Post
+2023-06-15 15:03:07,413 [6] INFO  Info - {"code":200,"data":{"token":"b4278a4b2a2da7d7cd52b214932702ff622f2223d6d41d012638194d75677e88","refreshToken":"a62471221f4b48ed8cfcaadff85eb71d2575dd193072db4d69f21713bff63a2f","tokenTtl":86400,"refreshTokenTtl":2592000},"isSuccess":true,"msg":""}
+
+2023-06-15 15:03:07,861 [6] INFO  Info - 同步库存json{"qty":123.0,"supplierWarehouseName":"上海仓","zkhSku":"123123"}
+2023-06-15 15:03:07,881 [6] ERROR Error - {"qty":123.0,"supplierWarehouseName":"上海仓","zkhSku":"123123"} 返回Json{"code":500,"data":null,"isSuccess":"False","msg":"参数异常"}
+System.Exception: 库存同步失败
+2023-06-15 15:03:07,885 [6] INFO  Info - 返回json{"code":500,"data":null,"isSuccess":"False","msg":"参数异常"}
